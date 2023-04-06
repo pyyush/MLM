@@ -2,27 +2,8 @@
 
 
 ## Setup
-### 1. Install Miniconda 
-#### Linux users
-``` bash
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-bash Miniconda3-latest-Linux-x86_64.sh
-```
-
-#### Mac (Intel based) users
-``` bash
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
-bash Miniconda3-latest-MacOSX-x86_64.sh
-```
-
-### 2. Create environment
-``` bash
-bash setup.sh
-```
-
-### 3. Activate environment
-``` bash
-conda activate MLM
+```bash
+pip3 install -r requirements.txt
 ```
 
 # FastAPI
@@ -45,6 +26,6 @@ curl -X 'POST' \
 # Gradio
 
 ``` bash
-python Gradio.py
+python3 Gradio.py
 ```
 #### You could try the web application at <ins>http://127.0.0.1:7860</ins>
